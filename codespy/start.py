@@ -15,5 +15,4 @@ for line in sorted(rd, key=itemgetter(0)):
 	writer.writerow(line)
 
 outfile.close()
-
-# os.remove('output.csv')
+os.remove('output.csv')
