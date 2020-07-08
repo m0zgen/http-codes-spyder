@@ -10,7 +10,7 @@ class CodesSpider(scrapy.Spider):
     # Custom csv writer
     def __init__(self):
         self.outfile = open("output.csv", "w", newline="")
-        self.writer = csv.writer(self.outfile)
+        self.writer = csv.writer(self.outfile, delimiter=';')
 
     # Parse web data
     def parse(self, response):
