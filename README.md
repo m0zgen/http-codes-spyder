@@ -34,6 +34,12 @@ Then install packages from requirements.txt:
 pip install -r requirements.txt
 ```
 
+`cd` to `codespy` folder:
+
+```
+cd codespy/
+```
+
 Run Spyder:
 
 ```python
